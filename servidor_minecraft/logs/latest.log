@@ -2175,3 +2175,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Dec2024 03:21:50.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
 [01Dec2024 03:21:54.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [01Dec2024 03:21:54.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
+[01Dec2024 03:31:55.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Dec2024 03:31:55.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Dec2024 03:31:55.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Dec2024 03:31:55.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Dec2024 03:31:56.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Dec2024 03:31:57.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Dec2024 03:31:57.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Dec2024 03:31:57.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[01Dec2024 03:31:57.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Dec2024 03:31:57.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Dec2024 03:31:57.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Dec2024 03:31:57.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[01Dec2024 03:31:57.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Dec2024 03:31:57.354] [Server thread/INFO] [net.montoyo.wd.utilities.Log/]: Miniserv server stopped
+[01Dec2024 03:31:57.383] [Server thread/INFO] [Framework/]: Unloading server configs...
+[01Dec2024 03:31:57.386] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[01Dec2024 03:31:57.387] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
