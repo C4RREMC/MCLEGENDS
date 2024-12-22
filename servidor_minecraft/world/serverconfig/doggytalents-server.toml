@@ -156,6 +156,8 @@
 	#Disable all Wolf Armor Protection for DTN Dogs. They can still be
 	#used for Style.
 	disable_wolf_armor_protection = false
+	#Prevent Wild Wolves from being angry when you accidentally hit them.
+	prevent_wild_wolves_angry = false
 	#For Minecraft version below 1.20.5
 	#When this option is enabled, upon training a vanilla wolf
 	#to DTN Wolf, DTN will asign a random Classical Variant
