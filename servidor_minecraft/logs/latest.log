@@ -294,3 +294,29 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [26Dec2024 16:31:03.995] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 00735ec0-11a2-30c8-94f5-6be9a989b074
 [26Dec2024 16:31:04.991] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 00735ec0-11a2-30c8-94f5-6be9a989b074
 [26Dec2024 16:31:04.995] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player C4RR1L3R0_FM (00735ec0-11a2-30c8-94f5-6be9a989b074) successfully connected to voice chat
+[26Dec2024 16:33:28.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Dec2024 16:33:28.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Dec2024 16:33:28.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Dec2024 16:33:28.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Dec2024 16:33:29.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Dec2024 16:33:30.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Dec2024 16:33:30.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Dec2024 16:33:30.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[26Dec2024 16:33:30.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Dec2024 16:33:30.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Dec2024 16:33:30.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Dec2024 16:33:30.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[26Dec2024 16:33:30.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Dec2024 16:33:30.724] [MiniServServer/WARN] [net.montoyo.wd.utilities.Log/]: Could not accept client
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.ServerSocketChannelImpl.ensureOpen(ServerSocketChannelImpl.java:184) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.begin(ServerSocketChannelImpl.java:359) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:397) ~[?:?]
+	at net.montoyo.wd.miniserv.server.Server.loopUnsafe(Server.java:153) ~[webdisplays-2.0.2-1.20.1.jar%23279!/:2.0.2-1.20.1]
+	at net.montoyo.wd.miniserv.server.Server.run(Server.java:117) ~[webdisplays-2.0.2-1.20.1.jar%23279!/:2.0.2-1.20.1]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 16:33:30.728] [Server thread/INFO] [net.montoyo.wd.utilities.Log/]: Miniserv server stopped
+[26Dec2024 16:33:30.740] [Server thread/INFO] [Framework/]: Unloading server configs...
+[26Dec2024 16:33:30.742] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[26Dec2024 16:33:30.745] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[26Dec2024 16:33:30.746] [Server thread/INFO] [Framework/]: Finished unloading server configs
